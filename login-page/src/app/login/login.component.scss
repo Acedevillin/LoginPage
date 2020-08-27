@@ -2,14 +2,19 @@ label {
   color: red;
 }
 .box {
-  box-sizing: border-box;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: relative;
-  margin-top: 20%;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 .field {
-  margin-left: 45%;
+  left: 50%;
+  margin-left: 50%;
+}
+
+input {
+  width: auto;
+  height: auto;
+  margin-top: 1%;
+  border: none;
+  border-bottom: 2px solid;
 }
