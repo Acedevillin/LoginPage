@@ -1,20 +1,71 @@
-label {
-  color: red;
+$radius-large: 50px;
+$box-radius: $radius-large;
+$top: 75px;
+$left: 100px;
+$color: green;
+
+h1 {
+  color: white;
 }
-.box {
-  margin-top: 50px;
-  margin-left: 50px;
+.hero {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url("/assets/img/8 k 26 (3).jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container1 {
+  padding: 20px 0;
+  margin-top: 20%;
+  margin-left: 15%;
 }
 
 .field {
-  left: 50%;
-  margin-left: 50%;
+  padding: 8px 0;
+  margin: 30px 0;
+  overflow: hidden;
+  border-bottom: 1px solid $color;
+  width: 75%;
 }
 
-input {
-  width: auto;
-  height: auto;
-  margin-top: 1%;
-  border: none;
-  border-bottom: 2px solid;
+.field {
+  input {
+    border: none;
+    outline: none;
+    background: none;
+    color: $color;
+    float: left;
+    font-size: 20px;
+  }
+}
+
+.form-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  border: 2px solid;
+  border-color: green;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.5em;
+  opacity: 0.7;
+}
+
+.button {
+  width: 220px;
+  margin-top: 30px;
+  margin-left: 80px;
+  border-color: $color;
+  color: $color;
+  border: 2px solid;
+  font-size: 20px;
+}
+
+#fp {
+  float: right;
+  margin-right: 8%;
+  font-size: 12px;
 }
